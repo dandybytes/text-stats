@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60%;
+  min-width: 40rem;
+  margin: 1rem auto;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.title {
+  margin: 1rem;
+}
+
+.subtitle {
+  margin-bottom: 1rem;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  border: 1px solid black;
+  padding: 1rem;
+}
+
+.stats-cell {
+  display: flex;
+  width: 10rem;
+  border: 1px solid black;
+}
+
+.stat-name {
+  display: block;
+  width: 5rem;
+  border: 1px solid black;
+}
+
+.stat-value {
+  display: block;
+  width: 5rem;
+  border: 1px solid black;
+}
+
+#text-input {
+  margin: 1rem;
+}
