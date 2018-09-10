@@ -8,13 +8,16 @@
   <title>Text Stats</title>
 </head>
 <body>
+  <!--  ------------------ START(container) ------------------  -->
   <div class="container">
+
     <header>
       <h1 class="title">Text Stats</h1>
       <h2 class="subtitle">subtitle</h2>
     </header>
-    <main>
-      <div class="stats-container">
+
+    <main> <!--  --------- START(main) ---------  -->
+      <div class="stats-container stats-row1">
         <div class="stats-cell">
           <span class="stat-name" id="word-count-name">word count</span>
           <span class="stat-value" id="word-count-value"></span>
@@ -28,12 +31,16 @@
           <span class="stat-value" id="num-lett-value"></span>
         </div>
       </div>
-      <div class="text-container">
-        <textarea name="text-input" id="text-input" cols="75" rows="30" placeholder="type some text here"></textarea>
+
+      <div class="stats-container stats-row2">
+        <!-- javascript-generated content -->
       </div>
-    </main>
+
+      <textarea name="text-input" id="text-input" placeholder="type or paste some text here"></textarea>
+    </main> <!--  --------- END(main) ---------  -->
     
   </div>
+  <!--  ------------------ END(container) ------------------  -->
 
   <script src="script.js"></script>
 </body>
